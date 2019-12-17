@@ -87,5 +87,5 @@ public class LoginController {
         	log.info("权限出错");
         	return new ResponseBody(1002,"权限错误");
         }
-    } 
+    }
 }

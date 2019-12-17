@@ -4,8 +4,8 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 /**
 * @author zs 
-* @version 创建时间�?2019�?7�?8�? 上午9:52:25 
-* @Description 用户信息实体�?
+* @version 创建时间�?2019�?7�?8�? 上午9:52:25 
+* @Description 用户信息实体�?
  */
 @Document(collection = User.COLLECTIONNAME)
 public class User {
