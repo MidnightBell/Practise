@@ -1,0 +1,15 @@
+server:
+  port: 8088
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/InsulationMaterials
+      database: InsulationMaterials
+      connectionsPerHost: 30
+      threadsAllowedToBlockForConnectionMultiplier: 10
+      connectTimeout: 120000
+      maxWaitTime: 20000
+      socketKeepAlive: true
+      socketTimeout: 120000
+      maxConnectionIdleTime: 120000
+      maxConnectionLifeTime: 600000
